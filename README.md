@@ -15,3 +15,44 @@
 > 선정한 데이터
 1. [정부 3.0 공공 데이터](https://www.data.go.kr/data/15112130/fileData.do)에서 <U>**'한국언론진흥재단_10대미디어이용통계_SNS 서비스별 이용률'**</U>라는 자료를 가져왔다.
 2. [국가 통계 포털](https://kosis.kr/search/search.do)에서 <U>**'2020 ~ 2022_스마트폰_사용여부'**</U>라는 자료를 가져왔다.
+
+### 3. 데이터 전처리 & 분석 및 시각화
+* '한국언론진흥재단_10대미디어이용통계_SNS 서비스별 이용률'의 데이터와 모아놓은 csv와 '2020 ~ 2022_스마트폰_사용여부'의 데이터 파일인 xlsx를 가지고 pandas를 통해 각각의 파일에 대한 데이터 표를 만들어 출력하였다.
+* pandas를 이용하여 읽은 데이터 중 '한국언론진흥재단_10대미디어이용통계_SNS 서비스별 이용률'를 가지고 seaborn과 matplotlib를 통해 데이터를 가공 및 전체, 초등학생, 중학생, 고등학생 별로 어떤 SNS를 가장 많이 이용하는 지에 대한 막대 그래프를 만들었다.
+
+  *  청소년들의 휴대폰 사용비율 표
+ 
+    <img width="950" alt="학생들의 휴대폰 사용비율" src="https://github.com/user-attachments/assets/fbe92592-b39f-4ab8-a398-908f51959cb0" />
+    
+  *  학생별 사용하는 SNS비율 표
+
+    <img width="293" alt="학생별 사용하는 sns서비스" src="https://github.com/user-attachments/assets/cb8c468c-90f7-45ff-a59f-fbbd94174512" />
+ 
+  *  학생들 전체에 대한 SNS별 사용 비율 그래프
+
+    <img width="748" alt="전체 sns사용 서비스" src="https://github.com/user-attachments/assets/6ba16f30-aca1-41a2-991c-507a5de7a1e7" />
+    
+  *  초등학생에 대한 SNS별 사용 비율 그래프
+
+    <img width="746" alt="초등학생 sns사용 서비스" src="https://github.com/user-attachments/assets/525701fe-c218-4ad6-a941-91d8ba3d9f10" />
+
+  * 중학생에 대한 SNS별 사용 비율 그래프
+ 
+    <img width="750" alt="중학생 sns사용 서비스" src="https://github.com/user-attachments/assets/629c7641-80ea-444e-86ca-591c32c19202" />
+ 
+  * 고등학생에 대한 SNS별 사용 비율 그래프
+ 
+    <img width="745" alt="고등학생 sns사용 서비스" src="https://github.com/user-attachments/assets/e035b434-59a2-44a8-b04a-85576226f702" />
+
+
+### 4. 데이터 코드 바로가기
+> [데이터 코드](https://github.com/monolail/SNS-analysis/blob/main/%EC%B2%AD%EC%86%8C%EB%85%84%EC%9D%98%20sns%EC%82%AC%EC%9A%A9%20%EC%B5%9C%EC%A2%85%20%EB%B3%B4%EA%B3%A0%EC%84%9C.ipynb)
+
+
+### 5. 프로젝트를 진행한 후 깨닫거나 느낀점
+1.  청소년들의 휴대폰 사용률이 전체적으로 98.3%로 많은 학생들이 휴대폰을 가지며 사용하고 있다는 것을 알았다.
+2.  또한 초, 중, 고등학생들 사이에 약간의 차이는 있지만 모두 '인스타그램'과 '페이스북'이 가장 많이 사용하는 SNS 서비스로 드러나며 이 세 집단에 비슷한 문화가 있음을 알 수 있었다.
+
+---
+3.  청소년들이 많이 사용하는 SNS를 통해 학생들의 유행하는 문화가 무엇인지를 알아볼 수 있을 것이라고 느꼈다.
+4. 또한 이 프로젝트를 통해 어떤 청소년들의 문화가 어디에서 유행할 수 있을지에 대해 짐작하기 어려운 사람들이 쉽게 다가갈 수 있을 것이라고도 느꼈다.
